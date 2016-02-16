@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>{{ info.info.name }}</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/static/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="/static/css/agency.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+<link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+    <link href="/static/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+{#            <a href="{{ info.profiles.github }}"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/52760788cde945287fbb584134c4cbc2bc36f904/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f77686974655f6666666666662e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png"></a>#}
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">{{ info.info.name }}</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Who I Am</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Skills</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">Employment</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#team">Hobbies And Favorites</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">{{ info.aboutme.smalltext }}</div>
+                <div class="intro-heading">{{ info.aboutme.bigtext }}</div>
+                <a href="{{ info.info.resumelink }}" class="page-scroll btn btn-xl" target="_blank">Link To Formal Resume</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">About Me</h2>
+                    <h3 class="section-subheading text-muted">{{ info.aboutme.tagline }}</h3>
+                </div>
+                <div class="col-lg-2"></div>
+                <div class="col-lg-8 text-center">
+                    {{ info.aboutme.text }}
+                </div>
+                <div class="col-lg-2"></div>
+            </div>
+            <div class="row text-center">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Skills</h2>
+                    <h3 class="section-subheading text-muted">Because Everyone Is Good At Something</h3>
+            </div>
+            <div><div class="col-lg-1"></div>
+            </div>
+                {% for column in info.skills %}
+                    <div class="col-lg-5">
+                    {% for s in info.skills[column] %}
+                        <div class="progress">
+                        <div class="progress-bar progress-bar-striped {{ info.skills[column][s]["color"] }}" role="progressbar"aria-valuenow="{{ info.skills[column][s]["skillrating"] }}" aria-valuemin="0" aria-valuemax="100" style="width:{{ info.skills[column][s]["skillrating"] }}%">{{ info.skills[column][s]["skill"] }}</div>
+                        </div>
+                    {% endfor %}
+                    </div>
+                {% endfor %}
+                <div class="col-lg-1"></div>
+        <div class="col-lg-12">
+                <div class="text-center">
+                    {{ info.addlskills.text }}
+                </div>
+            </div>
+
+            </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Employment</h2>
+                    <h3 class="section-subheading text-muted">Dolla Dolla Bill Yall</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-10">
+                        {% for job in info.experience %}
+                       <h3 class="text-center">{{ info.experience[job]["position"] }}</h3>
+                            <h5 class="text-center"> {{ info.experience[job]["employer"] }} - {{ info.experience[job]["location"] }} - {{ info.experience[job]["dates"] }} </h5>
+                    <div class="progress">
+
+                             {% for barchunk in info.experience[job]["dutybar"] %}
+{#                                 <div class="progress-bar" role="progressbar" style="width:10%">Free Space</div>#}
+                                 <div class="progress-bar {{ info.experience[job]["dutybar"][barchunk]["color"] }}" role="progressbar" style="width:{{ info.experience[job]["dutybar"][barchunk]["percent"] }}%"> {{ info.experience[job]["dutybar"][barchunk]["name"] }}</div>
+                        {% endfor %}
+                    </div>
+                            <div class="text-center">{{ info.experience[job]["description"] }}</div>
+                            <h5 class="text-center">Responsibilities</h5>
+                              <ul class="list-group">
+                                {% for bullet in info.experience[job]["bullets"] %}
+                                <li class="list-group-item">{{ info.experience[job]["bullets"][bullet] }}</li>
+                                {% endfor %}
+                              </ul>
+                            <br> </br>
+                {% endfor %}
+                </div>
+                <div class="col-lg-1"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hobbies And Faves Section -->
+    <section id="team" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Hobbies And Favorites</h2>
+                    <h3 class="section-subheading text-muted">I have no life</h3>
+                </div>
+            </div>
+
+          <div class="col-lg-1"></div>
+            <div class="text-center col-lg-10">
+
+                <h4>Hobbies</h4>
+
+                <p>{{ info.hobbies.text }}</p>
+{#                <ul class="list-group">#}
+{#                    {% for hobby in info.hobbies.stuff %}#}
+{#                        <li class="list-group-item" style="background: none">{{ info.hobbies.stuff[hobby] }}</li>#}
+{#                    {% endfor %}#}
+{#                </ul>#}
+                <br></br>
+
+                <h4>Favorites</h4>
+                {% if "None" not in info.faves.text %}
+                <p>{{ info.faves.text }}</p>
+                {% endif %}
+                {% for fave in info.faves.stuff %}
+                    {% if info.faves.stuff[fave]["link"] %}
+                        <div><a class="project-link" href="{{ info.faves.stuff[fave]["link"] }}">{{ info.faves.stuff[fave]["title"] }}</a> - {{ info.faves.stuff[fave]["text"] }}</div>
+                    {% else %}
+                        <div>{{ info.faves.stuff[fave]["title"] }} - {{ info.faves.stuff[fave]["text"] }}</div>
+                    {% endif %}
+                {% endfor %}
+
+            </div>
+          <div class="col-lg-1"></div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Contact Info</h2>
+                    <h3 class="section-subheading text-muted">If you're an employer or just have a question, reach out!</h3>
+                </div>
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-10 text-center">
+                <h3 class=" contact-text text-center">{{ info.info.name }}</h3>
+                <h5 class="contact-text text-center">{{ info.info.address }} - {{ info.info.city }} {{ info.info.state }}</h5>
+                <h5 class="contact-text text-center">Phone: {{ info.info.phone }}</h5>
+                {% for profile in info.profiles.other %}
+                    <h5 class="contact-text text-center">{{ info.profiles.other[profile] }}</h5>
+                {% endfor %}
+                <a href="mailto:{{ info.info.email }}" class="btn btn-info"><span class="glyphicon glyphicon-envelope"></span> Email Me!</a>
+
+            </div>
+
+            <div class="col-lg-1"></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright"><a href="https://github.com/avelardi/my-resume"> Fork me on GitHub!</a></span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="{{ info.profiles.twitter }}" target="_blank"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="{{ info.profiles.linkedin }}" target="_blank"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                        <li><a href="{{ info.profiles.github }}" target="_blank"><i class="fa fa-github"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="/static/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/static/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="/static/js/classie.js"></script>
+    <script src="/static/js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="/static/js/jqBootstrapValidation.js"></script>
+    <script src="/static/js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/static/js/agency.js"></script>
+
+</body>
+
+</html>

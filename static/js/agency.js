@@ -1,7 +1,7 @@
 /*!
- * Agency v1.0.x (http://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ * Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
@@ -21,6 +21,6 @@ $('body').scrollspy({
 })
 
 // Closes the Responsive Menu on Menu Item Click
-$('.navbar-collapse ul li a:not(.dropdown-toggle)').click(function() {
+$('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });

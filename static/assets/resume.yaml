@@ -1,0 +1,268 @@
+info:
+  name: Anthony Velardi
+  address: 109 Sterling Drive
+  city: Galloway
+  state: NJ
+  phone: 609-289-5182
+  email: tony@velardi.io
+  site: velardi.io
+  resumelink: https://docs.google.com/document/d/1GC5pvmBRO2Nvs-qyy_sycq0I37E5V_kzUJFGjRsNKd8/edit?usp=sharing
+
+experience:
+  0:
+    employer: Linode LLC
+    location: Galloway NJ
+    position: Security Engineer
+    dates: 8.2015 to Current
+    description: As the first and only security engineer at Linode, I was presented with the opportunity to build a security program from the ground up to meet the unique needs of the company. I initially worked on creating and implementing security standards, policies and guidelines for internal systems and new products, including audits and routine penetration testing as well as server deployment procedures. In addition to this, I also created disaster recovery and incident response policies to better prepare for immediate threats so we can properly mitigate issues in a secure and timely manner. In addition to these accomplishments, I’m also in charge of the security of all infrastructure, including vulnerability analysis and ultimately responsible for all mitigation.
+    bullets:
+      0: Plan And Implement Security Improvements For Over 5000 Physical Servers And Over 1000 Virtual Systems
+      1: Mitigate Emerging Threats And Vulnerabilities
+      2: Perform Internal Audits And Blackbox/Whitebox Penetration Tests For All Infrastructure Including Customer Facing Systems
+      3: Creating Security Standards, Policies And Procedure Guidelines
+      4: Responsible For All Internal Security Investigations
+
+    dutybar:
+      0:
+        name: Pentests & Audits
+        percent: 30
+        color: progress-bar-info
+      1:
+        name: System Improvements
+        percent: 15
+        color: progress-bar-warning
+      2:
+        name: Security Maintenance
+        percent: 20
+        color: progress-bar-info
+      3:
+        name: Investigations
+        percent: 20
+        color: progress-bar-success
+      4:
+        name: Planning & Policy
+        percent: 15
+        color: progress-bar-warning
+  1:
+    employer: Linode LLC
+    location: Galloway NJ
+    position: DC Ops Engineer And Systems Admin
+    dates: 11.2014 to 8.2015
+    description: In my Datacenter Ops role, my primary responsibilities was to deploy new servers while keeping our existing infrastructure running. In addition to those responsibilities, I was able to create and improve some administration tools to make both deployments and troubleshooting issues easier.
+    bullets:
+      0: Plan And Deploy New Systems From Server Build To Stack
+      1: Monitor, Troubleshoot and Repair Server And System Issues
+      2: Automate Administration Tasks, Improve Existing Systems and Roll Out New Ones
+    dutybar:
+      0:
+        name: Deploy New Systems
+        percent: 60
+        color: progress-bar-success
+      1:
+        name: Responding To Incidents
+        percent: 20
+        color: progress-bar-warning
+      2:
+        name: R&D, Build & Improve Tools
+        percent: 20
+        color: progress-bar-info
+  2:
+    employer: Linode LLC
+    location: Galloway NJ
+    position: Customer Systems Support Engineer
+    dates: 3.2014 to 11.2014
+    description: In my first position at Linode, I was responsible for troubleshooting issues with customer systems and actively mitigating attacks and threats. I was also responsible for assisting customers in deployments and migrations to our platform.
+    bullets:
+      0: Troubleshoot Customer System Issues
+      1: Performing Required System Maintenance, Planning Migration Plans And Downtime
+      2: Engineering And Deploying Systems For Customers, Including Custom Stacks And Solutions
+      3: Mitigate Ongoing Attacks And Threats
+
+    dutybar:
+      0:
+        name: Troubleshooting Systems
+        percent: 60
+        color: progress-bar-success
+      1:
+        name: Threat Mitigation
+        percent: 20
+        color: progress-bar-warning
+      2:
+        name: Improving Tools
+        percent: 20
+        color: progress-bar-info
+  3:
+    employer: A-Tech
+    location: Galloway NJ
+    position: Network Administrator
+    dates: 1.2013 to 1.2014
+    description: As the only IT personnel at A-Tech, I was responsible for all technology owned by the company. During my time there, I was able to reduce technology spending by more than 50%, and developed a sustainable technology plan for all technology assets in the company.
+    bullets:
+      0: Manage And Maintain All Technology Assets
+      1: Handle All Internal And Customer Facing Technology Issues
+      2: Reduced IT Cost Of Operation By Over 50%
+      3: Systems And Server Rollout, Design, And Upgrades
+
+    dutybar:
+      0:
+        name: Monitoring And Maintenance
+        percent: 30
+        color: progress-bar-success
+      1:
+        name: Deploying New Systems
+        percent: 40
+        color: progress-bar-warning
+      2:
+        name: Improving Existing Systems
+        percent: 30
+        color: progress-bar-info
+  4:
+    employer: Synchronoss Technologies
+    location: Bethlehem PA
+    position: NOC Engineer
+    dates: 7.2012 to 12.2012
+    description: At Synchronoss, I was in charge of a team that planned and executed migrations for a few large clients. I also had the opportunity to engineer systems that allowed for consolidation during the migration.
+    bullets:
+      0: Created A Migration Proposal For Approval And Rollout
+      1: Performed Large Scale Migrations Of Critical Infrastructure
+      2: Created Network and Data Redundancy Plans
+    dutybar:
+      0:
+        name: Systems Engineering
+        percent: 30
+        color: progress-bar-success
+      1:
+        name: Planning
+        percent: 40
+        color: progress-bar-info
+      2:
+        name: Existing System Integration
+        percent: 30
+        color: progress-bar-warning
+  5:
+    employer: United Parcel Service
+    location: Bethlehem PA
+    position: Junior Systems Engineer
+    dates: 7.2012 to 12.2012
+    description: During this work study program, I was part of the SysAdmin team in charge of all production systems for the company. I gained a great amount of real world exposure and invaluable practical experience during my time there.
+    bullets:
+      0: Monitoring Server Status And Correcting Server Issues
+      1: Provisioning Groups And Users As Needed In The Required Systems
+      2: Deploying New Base Systems
+    dutybar:
+      0:
+        name: Monitoring Systems
+        percent: 60
+        color: progress-bar-success
+      1:
+        name: Deploying New Systems
+        percent: 20
+        color: progress-bar-info
+      2:
+        name: Provisioning Users
+        percent: 20
+        color: progress-bar-warning
+
+education:
+  0:
+    school: University Of Nevada, Las Vegas
+    degree: BS In Computer Science
+    text: CompTIA A+, Network+, Security+, Server+, Linux+, Cisco CCNP[Expired]
+
+skills:
+  0:
+    0:
+      skill: Linux(Debian/Ubuntu,Centos/RHEL,CoreOS)
+      skillrating: 90
+      color: progress-bar-success
+    1:
+      skill: Systems And Website Penetration Testing
+      skillrating: 85
+      color: progress-bar-info
+    2:
+      skill: Root Cause Analysis/Forensics
+      skillrating: 90
+      color: progress-bar-warning
+    3:
+      skill: Vuln Scan Tools(Nessus,Openvas,Others)
+      skillrating: 70
+      color: progress-bar-success
+    4:
+      skill: Threat Detection And Mitigation
+      skillrating: 85
+      color: progress-bar-info
+    5:
+      skill: Monitoring/Logging(ELK,Nagios,Munin,Cacti)
+      skillrating: 70
+      color: progress-bar-warning
+
+  1:
+    0:
+      skill: Virtualization (KVM/QEMU,Xen, Citrix)
+      skillrating: 70
+      color: progress-bar-info
+    1:
+      skill: Databases (Maria/MySQL,Postgres,Mongo)
+      skillrating: 65
+      color: progress-bar-warning
+    2:
+      skill: Python Scripting
+      skillrating: 60
+      color: progress-bar-success
+    3:
+      skill: Web Servers/Stacks(Apache,Nginx,HAProxy,Gunicorn)
+      skillrating: 95
+      color: progress-bar-info
+    4:
+      skill: Config Mgmt/CI(Puppet, Ansible, Salt, Jenkins)
+      skillrating: 65
+      color: progress-bar-warning
+    5:
+      skill: Incident Response
+      skillrating: 85
+      color: progress-bar-success
+
+addlskills:
+  text: I also have experience with security frameworks (NIST and COBIT) and compliance standards (PCI).
+
+aboutme:
+  tagline: Because you wanna hear more than just my love affair with Linux
+  text: For me, security and technology are deep rooted passions going back to my curiousity when I first started using computers. I love the fast paced, constantly changing world of information security, and I was instantly drawn to positions that allowed me to make a difference and more importantly enjoy every aspect of what I do. From pentests to reviewing vulnerabilities, from policies to forensic investigations, I love all of it. I live and breathe systems and security, and I couldn't be happier working in the most amazing field ever. I fell head over heels for Linux a while ago, and have never looked back. Overall, I love what I do, and would love to do what I love for you.
+  smalltext: Hi, I'm Tony
+  bigtext: And I Love What I Do
+
+profiles:
+  twitter: https://twitter.com/velardi
+  linkedin: https://www.linkedin.com/in/avelardi
+  github: https://github.com/avelardi?tab=activity
+  other:
+    0: "@avelardi on oftc"
+hobbies:
+  text: Aside from combing through the code of an awesome exploit or trying out the latest product, I'm a big UFC fan, enjoy target shooting and am a sucker for a good EDC loadout. I also love Python and writing awesome backend automation scripts for doing things I don't wanna do more than once.
+faves:
+  text: None
+  stuff:
+    0:
+      title: Personal RSS Feed
+      link: http://rss.velardi.io/public.php?op=rss&id=2&is_cat=1&key=46cb2d32c0ecfd928997a23b7cc1cce55b943ea6
+      text: My aggregated feed I've personally curated and use (also tt-rss ftw)
+    1:
+      title: Quassel IRC
+      link: http://www.quassel-irc.org/
+      text: My favorite IRC client. FOSS, and uses a core/client setup to maintain connections and logs. Also has and Android app.
+    2:
+      title: UFONet
+      link: https://ufonet.03c8.net/
+      text: Crowdsourced DDoS Botnet with built-in dork result aggregator
+    3:
+      title: iRedMail
+      link: http://www.iredmail.org/
+      text: A full, open-source mail server stack. Installs in about 10 minutes, and kicks ass.
+    4:
+      title: SET
+      link: https://github.com/trustedsec/social-engineer-toolkit/
+      text: Super powerful tool. Also because manually creating a phishing site sucks.
+    5:
+      title: InfoSec Reactions
+      link: https://securityreactions.tumblr.com/
+      text: Fun reaction gif blog I enjoy
