@@ -23,5 +23,10 @@ info = yaml.load(infofile)
 def resume():
     return render_template('index.html',info=info)
 
+@app.route('/keybase.txt')
+def keybase():
+    keybasefile = get_file("keybase.txt")
+    return keybasefile
+
 if __name__ == '__main__':
     app.run()

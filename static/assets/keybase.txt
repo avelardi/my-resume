@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/avelardi
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://velardi.io
+  * I am avelardi (https://keybase.io/avelardi) on keybase.
+  * I have a public key with fingerprint 92D3 B27B 63C7 4812 9388  C18C 6718 8DE0 F81E 5C73
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101cafd9ebbfa4b328be486365bf08c26da70f4144c4a5a5d9966068498a110086b0a",
+            "fingerprint": "92d3b27b63c748129388c18c67188de0f81e5c73",
+            "host": "keybase.io",
+            "key_id": "67188de0f81e5c73",
+            "kid": "0101cafd9ebbfa4b328be486365bf08c26da70f4144c4a5a5d9966068498a110086b0a",
+            "uid": "a21f8406a60486c5cdc4d13e1f6e6f19",
+            "username": "avelardi"
+        },
+        "service": {
+            "hostname": "velardi.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1458327606,
+    "expire_in": 157680000,
+    "prev": "34cc759b64db8e425ad18af3e064bc5831373eee60e130afb9d7e9026feeeea3",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.51
+Comment: https://keybase.io/crypto
+
+yMM8AnicrZJrTBRXGIYXykJdS4Qium2qDaPQGgmd+2Wt1AoiNYCIaLwAy8yZM8vA
+urPsLIuLAVQqhh8Vubit0kqDrUVNgdhqjShGq9AN0QiBuJqCBaUBWi8NNNSmms5Q
++q8/e/6cnDfv95z3+/JdD3/JYAqymT/66Y+lOWpQ79UjJYatv2bSexBBEb2IZQ9S
+BGcvaBeh6rYWySJiQVAMxQAviRwUBIknBQJnBUiyNEFTgoSyAKdFnkElEiNJQPIU
+T4kcR9MozZIcy2MYirK0gPJIPCLJDht0OV2yw61hOVwkBJwRaAIwJIvhHMGyAGMB
+zWAsK0JUYjFIAYbQCgsUVa/Qwgm8ChNkRdO0h3U23n/4/+fcJbM4HscklkRpnkY1
+CKCACEgRIyAm0ZCWME43qtDl4HdB3e2Bdt4lykh5PKKpHhlAfbB6J3OOOcM/3Thd
+ilsBil3TC9xup2rR69xep24shYJ1DmEVZIeoTVGr8ECXKisOxIJpTuCWdSZGUiyB
+M1oP8Qjc7ZRd0CrrDoqhWVQ7+j/QoyEJEgCG4gSaFAUWkjjFixjLSwREaVIAGgQj
+GAJCSKMQI1BeEjiRgRyK05ImQl6fsQqLHQpiobSYvE1DqrLNwbtLXBApv3Y1J8QQ
+ZDKEGoP17TKY5kX8u3NdXRGG1t9MEDmQkJnS3TC1lhkujjkEIivNxaYX7MLUH5tH
+6k+Au0WqGd8/Zl+Z4snYfC8tvixQEbzymHeH8kE12Pcg4/CZC0ie6/5FZNUac2m2
+4kuTn/a82jGR6VvUFjDvGt+aGZuUvmhTVdObWb6cjs7BjnnWwU8ezrRs+Xzb8I2F
+10/XfLXjUS1nMzqD8YfjTKNaEF7eBYJ/eLnq6wc/c7V3JpckG6Psn1XVNZiv7ORP
+xTZL4xJZN5KUvbEl97vwoeYFe30VltzS7VnJ+eER9btvHI14ltz8TnRxd2nLuiGj
+Yc1YYoyj5fdfaoydB5UhTyEx3X5YupvAXfRZ7ZdSrWOpic9D+sqejYzn3UzasqGh
+8o1zthO3bvfmNuKtY+7wc/ui05uiLfNdJ1/vlk5VJ0Remxr1fvvxFaolrn977OPV
+72849mlx8tsB75MVm458OFPyqBB9Nzbg7zMvJoSK3rAo/2TWzMT6Wn9taGRGdH/6
+kkNnluGn9+f8dTQ6ua38++yp49zZ7vuXX7O1TzaBxU++3Lx6/jdj7dX3brW9UhN3
+Pn/07IFVnQk9eQh4K7QoBRlYvvZSwCI9XRpSs+J4sFA+HHRnQYb38nvmNnFyeuLF
+wODzmlHzhbiTYUGm0MK6Rt/on/U7K7cF1uUsX9Z6fvpmbFnaQCLj75kS9qbc3hgT
+tT7scf4X/r7+vwE/q7Zl
+=sV6x
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/avelardi
+
+==================================================================
