@@ -248,9 +248,9 @@ faves:
       link: http://rss.velardi.io/public.php?op=rss&id=2&is_cat=1&key=46cb2d32c0ecfd928997a23b7cc1cce55b943ea6
       text: My aggregated feed I've personally curated and use (also tt-rss ftw)
     1:
-      title: Quassel IRC
-      link: http://www.quassel-irc.org/
-      text: My favorite IRC client. FOSS, and uses a core/client setup to maintain connections and logs. Also has and Android app.
+      title: WhatWeb
+      link: https://github.com/urbanadventurer/whatweb
+      text: My go-to site fingerprinting tool. Fast and reliable.
     2:
       title: UFONet
       link: https://ufonet.03c8.net/
@@ -264,6 +264,14 @@ faves:
       link: https://github.com/trustedsec/social-engineer-toolkit/
       text: Super powerful tool. Also because manually creating a phishing site sucks.
     5:
+      title: dvcs-ripper
+      link: https://github.com/kost/dvcs-ripper
+      text: Rips git repos from sites and has some clever tricks built in to automate the process.
+    6:
+      title: Quassel IRC
+      link: http://www.quassel-irc.org/
+      text: My favorite IRC client. FOSS, and uses a core/client setup to maintain connections and logs. Also has an Android app.
+    7:
       title: InfoSec Reactions
       link: https://securityreactions.tumblr.com/
       text: Fun reaction gif blog I enjoy
