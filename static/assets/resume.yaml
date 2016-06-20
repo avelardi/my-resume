@@ -238,6 +238,7 @@ profiles:
   github: https://github.com/avelardi?tab=activity
   other:
     0: "@avelardi on oftc"
+    1: "XMPP: avelardi@jabb3r.org"
 hobbies:
   text: Aside from combing through the code of an awesome exploit or trying out the latest product, I'm a big UFC fan, enjoy target shooting and am a sucker for a good EDC loadout. I also love Python and writing awesome backend automation scripts for doing things I don't wanna do more than once.
 faves:
